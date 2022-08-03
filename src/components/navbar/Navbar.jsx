@@ -52,7 +52,7 @@ const Navbar = () => {
 
   const [open, setOpen] = useState(false);
   return (
-    <AppBar sx={{ background: "black" }}>
+    <AppBar sx={{ background: "black", position:'static' }}>
       <StyledToolbar>
         <SocialBox>
           <Facebook />
@@ -91,7 +91,7 @@ const Navbar = () => {
           horizontal: "left",
         }}
       >
-        <Grid>
+        <Box>
           {MenuItems.map((item) => (
             <MenuItem
               sx={{
@@ -104,7 +104,7 @@ const Navbar = () => {
               {item.Name}
             </MenuItem>
           ))}
-        </Grid>
+        </Box>
       </Menu>
     </AppBar>
   );
