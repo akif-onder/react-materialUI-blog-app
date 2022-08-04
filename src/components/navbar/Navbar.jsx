@@ -7,7 +7,6 @@ import {
 import {
   AppBar,
   Box,
-  Grid,
   InputBase,
   Menu,
   MenuItem,

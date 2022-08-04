@@ -16,6 +16,7 @@ const Main = () => {
         backgroundRepeat: 'no-repeat',
         backgroundColor: 'black',
         backgroundPosition:'center',
+        backgroundAttachment:'fixed',
         backgroundSize: 'cover',
         display: 'flex',
         justifyContent: 'center',
