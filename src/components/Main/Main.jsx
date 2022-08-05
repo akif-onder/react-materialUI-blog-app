@@ -22,6 +22,7 @@ const Main = () => {
         justifyContent: 'center',
         height: 600,
         width:'100%',
+       
 
       }}>
         <Box sx={{width:{xs:'100%', sm: '70%', md:'40%'}, padding: {xs:3, sm:5, md: 10}}}>
